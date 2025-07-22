@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAMA KRISHNA | PORTFOLIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar glass-nav" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">PORTFOLIO</a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active" data-scroll="home">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link" data-scroll="about">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link" data-scroll="projects">PROJECTS</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link" data-scroll="contact">CONTACT</a>
+                </li>
+                <li class="nav-item">
+                    <div class="theme-toggle" id="theme-toggle">
+                        <i class="fas fa-moon" id="theme-icon"></i>
+                    </div>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="particles" id="particles"></div>
+        <div class="home-container">
+            <div class="home-content">
+                <div class="home-left">
+                    <h1 class="home-title">
+                        Hi, I'm <span class="gradient-text typewriter" id="typewriter">RAMA KRISHNA</span>
+                    </h1>
+                    <p class="home-subtitle fade-in-up">Front-End Developer & UI/UX Designer</p>
+                    <p class="home-description fade-in-up">
+                        Creating beautiful, functional, and user-centered digital experiences
+                        with modern technologies and innovative design approaches.
+                    </p>
+                    <div class="home-buttons fade-in-up">
+                        <a href="#projects" class="btn btn-primary glass-btn">View My Work</a>
+                        <a href="#contact" class="btn btn-outline glass-btn-outline">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="home-right">
+                    <div class="profile-circle-container fade-in-right">
+                        <div class="profile-circle-outer glass-circle">
+                            <div class="profile-circle-inner glass-circle-inner">
+                                <img src="/RAMU.jpg" 
+                                     alt="Profile" class="profile-image">
+                                <div class="profile-glow"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title gradient-text" data-aos="fade-up">About Me</h2>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+                    Passionate about creating exceptional digital experiences
+                </p>
+            </div>
+            
+            <div class="about-grid">
+                <!-- Bio Card -->
+                <div class="about-card glass-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-icon">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3>Biography</h3>
+                    <p>
+                        I'm a passionate Front End Developer 
+                        creating digital solutions that bridge the gap between design and technology. 
+                        I love turning complex problems into simple, beautiful designs.
+                    </p>
+                </div>
+
+                <!-- Education Card -->
+                <div class="about-card glass-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Education</h3>
+                    <div class="education-item">
+                        <h4>CSE - AI (B.TECH) </h4>
+                        <p>NARSARAOPETA ENGINEERING COLLEGE</p>
+                        <span>2022 - 2026</span>
+                    </div>
+                    <div class="education-item">
+                        <h4>UI/UX Design</h4>
+                        <p>Devtown UI/UX CERTIFICATION</p>
+                    </div>
+                </div>
+
+                <!-- Experience Card -->
+                <div class="about-card glass-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>Experience</h3>
+
+                    <div class="experience-item">
+                        <h4>Frontend Developer  & UI/UX Designer</h4>
+                        <p>Startup - TECH IN MY STYLE</p>
+                        <span>2024 - Present </span>
+                    </div>
+                </div>
+
+                <!-- Skills Card -->
+                <div class="about-card glass-card skills-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="card-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Skills</h3>
+                    <div class="skills-container">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>HTML</span>
+                                <span>100%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>CSS</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>JS</span>
+                                <span>88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>UI/UX Design</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>VIBE CODING</span>
+                                <span>100%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>FIGMA</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title gradient-text" data-aos="fade-up">My Projects</h2>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+                    Here are some of my recent works
+                </p>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card glass-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <img src="/HTML - 1.0.png" alt="HTML - Learning Platform">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://html-in-my-style-0.netlify.app" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/Ramu-2003/HTML---1.0" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>HTML - Learning Platform 1.0</h3>
+                        <p>A Html learing Platform where you can learn Html from scratch and it was developed using html , css and js</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JS</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="https://html-in-my-style-0.netlify.app" class="btn btn-sm btn-primary glass-btn">Live Demo</a>
+                            <a href="https://github.com/Ramu-2003/HTML---1.0" class="btn btn-sm btn-outline glass-btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-image">
+                        <img src="/HTML - 2.0.png" alt="HTML - Learning Platform 2.0">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://html-in-my-style.netlify.app" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>HTML - Learning Platform 2.0</h3>
+                        <p>The HTML 2.0 is the updated version of HTML 1.0 where you can learn Html from scratch and it was developed using html , css and js</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JS</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="https://html-in-my-style.netlify.app" class="btn btn-sm btn-primary glass-btn">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-image">
+                        <img src="/TIC TAC TOE.png" alt="TIC TAC TOE">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Ramu-2003/TIC-TAC-TOE-GAME" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>TIC TAC TOE - Android game</h3>
+                        <p>A tic tac toe game which is developed using java , xml and it is a cute game we can play with your friends</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">XML</span>
+                            <span class="tech-tag">Android studio</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="https://github.com/Ramu-2003/TIC-TAC-TOE-GAME" class="btn btn-sm btn-outline glass-btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="project-image">
+                        <img src="/DOCLOCKER.png" alt="AI Chat Interface">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://doc-locker.netlify.app/" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/Ramu-2003/DOC---LOCKER" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>DOC-LOCKER</h3>
+                        <p>DOC-LOCKER this is a document locker website where you can lock your documents and it is a secure way to store your documents using html , css and js</p>
+                        <p>Note : this is a front end project</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JS</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="https://doc-locker.netlify.app/" class="btn btn-sm btn-primary glass-btn">Live Demo</a>
+                            <a href="https://github.com/Ramu-2003/DOC---LOCKER" class="btn btn-sm btn-outline glass-btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="project-image">
+                        <img src="/CSS - 2.0.png" alt="CSS - 2.0">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://css-in-my-style.netlify.app" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>CSS - 2.0</h3>
+                        <p>CSS - 2.0 is the updated version of CSS 1.0 where you can learn css from scratch and it was developed using html , css and js</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JS</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="https://css-in-my-style.netlify.app" class="btn btn-sm btn-primary glass-btn">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card" data-aos="fade-up" data-aos-delay="700">
+                    <div class="project-image">
+                        <img src="/JS - BASIC.png" alt="JS - BASIC">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://js-in-my-style-basic.netlify.app" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>JS BASIC - 1.0</h3>
+                        <p>JS BASIC is the basic version of js where you can learn js from scratch and it was developed using html , css and js</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JS</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="https://js-in-my-style-basic.netlify.app" class="btn btn-sm btn-primary glass-btn">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title gradient-text" data-aos="fade-up">Get In Touch</h2>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+                    Let's create something amazing together
+                </p>
+            </div>
+
+            <div class="contact-container">
+                <div class="contact-info" data-aos="fade-right" data-aos-delay="200">
+                    <div class="contact-item glass-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email</h3>
+                        <p>ramu4012y@gmail.com</p>
+                        <a href="mailto:ramu4012y@gmail.com" class="contact-link">Send Email</a>
+                    </div>
+                    
+                    <div class="contact-item glass-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h3>Phone</h3>
+                        <p>+91 9989562009</p>
+                        <a href="tel:+919989562009" class="contact-link">Call Now</a>
+                    </div>
+                    
+                    <div class="contact-item glass-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Location</h3>
+                        <p> 1-88 , Sri sai vihar , piduguralla , guntur district</p>
+                        <a href="https://www.google.com/maps/place/Sai+Baba+Temple+Sri+Sai+Vihar/@16.4657967,79.8817786,17z/data=!3m1!4b1!4m6!3m5!1s0x3a35657aa0159f15:0xbb947ee52aef2293!8m2!3d16.4657916!4d79.8843535!16s%2Fg%2F11dybc5plb?entry=ttu&g_ep=EgoyMDI1MDcxNi4wIKXMDSoASAFQAw%3D%3D" class="contact-link">View Map</a>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://github.com/Ramu-2003" class="social-link glass-social"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/rama-krishna-prasad/" class="social-link glass-social"><i class="fab fa-linkedin"></i></a>
+                        <a href="mailto:ramu4012y@gmail.com" class="social-link glass-social">
+  <i class="fas fa-envelope"></i>
+</a>
+                        <a href="https://www.instagram.com/accounts/login/?next=%2Ftech_in_my_style%2F&source=omni_redirect" class="social-link glass-social"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <form class="contact-form glass-card" data-aos="fade-left" data-aos-delay="300" id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary glass-btn btn-glow">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer glass-footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>RAMA KRISHNA</h3>
+                    <p>Front-End Developer & UI/UX Designer</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+<div class="footer-section">
+    <h4>Connect</h4>
+    <div class="footer-social">
+        <a href="https://github.com/Ramu-2003" class="footer-social-link">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/rama-krishna-prasad/" class="footer-social-link">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="mailto:ramu4012y@gmail.com" class="footer-social-link">
+            <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://www.instagram.com/tech_in_my_style/" class="footer-social-link">
+            <i class="fab fa-instagram"></i>
+        </a>
+    </div>
+</div>
+            </div>            
+            <div class="footer-bottom">
+                <p>© 2024 RAMA KRISHNA. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+</html>
